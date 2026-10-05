@@ -1,0 +1,20 @@
+{
+  "name": "creator-audio-job-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/creator_jobs.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/creator_decision.test.ts"
+  },
+  "dependencies": {
+    "openai": "^5.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.8.0"
+  }
+}
